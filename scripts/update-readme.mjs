@@ -8,9 +8,14 @@ const API = "https://inkference.app/api/v1";
 const KEY = process.env.INKFERENCE_API_KEY;
 const README = process.env.README_PATH ?? "README.md";
 
-// Project titles to leave off the README (case does not matter).
-const HIDE = [];
+// Project titles to leave off the tables (case does not matter).
+// Inkference has its own featured section at the top.
+const HIDE = ["Inkference"];
+// Shipped projects to always show first, in this order.
+const PIN = ["Hydra", "Pluto"];
+const MAX_SHIPPED = 6;
 const MAX_SKILLS = 24;
+const PROFILE = "https://inkference.app/profile/cchryx";
 
 const STAGES = {
   idea: { label: "IDEA", color: "4C6EF5" },
@@ -75,11 +80,12 @@ function formatDate(due) {
 
 function projectRow(p, nextMilestone) {
   const icon = imageUrl(p.icon);
-  const iconCell = icon ? `<img src="${icon}" width="44" height="44" alt="" />` : "";
+  const iconCell = icon ? `<img src="${icon}" width="44" alt="" />` : "";
   const repo = (p.links ?? []).map(linkUrl).find((u) => /github\.com/i.test(u));
   const title = `**[${text(p.title)}](${p.url})**`;
   const extra = repo ? ` · [code](${repo})` : "";
-  const summary = p.summary ? `<br><sub>${text(p.summary)}</sub>` : "";
+  const contributor = String(p.role ?? "").toLowerCase() === "contributor" ? `<br><sub><b>Contributor</b>${p.contributedAs ? `: ${text(p.contributedAs)}` : ""}</sub>` : "";
+  const summary = (p.summary ? `<br><sub>${text(p.summary)}</sub>` : "") + contributor;
   const next = nextMilestone
     ? `<br><sub><b>Next:</b> ${text(nextMilestone.title)}${formatDate(nextMilestone.due) ? ` · ${formatDate(nextMilestone.due)}` : ""}</sub>`
     : "";
@@ -122,8 +128,18 @@ async function main() {
   const hidden = new Set(HIDE.map((t) => t.toLowerCase()));
   const projects = (await allProjects()).filter((p) => stageOf(p) && !hidden.has(String(p.title).toLowerCase()));
 
-  const active = projects.filter((p) => ["IDEA", "BUILDING"].includes(stageOf(p).label));
-  const shipped = projects.filter((p) => stageOf(p).label === "SHIPPED");
+  const order = { BUILDING: 0, IDEA: 1 };
+  const active = projects
+    .filter((p) => stageOf(p).label in order)
+    .sort((a, b) => order[stageOf(a).label] - order[stageOf(b).label]);
+
+  const pinRank = (p) => {
+    const i = PIN.findIndex((t) => t.toLowerCase() === String(p.title).toLowerCase());
+    return i === -1 ? PIN.length : i;
+  };
+  const ended = (p) => new Date(p.endDate ?? p.updatedAt ?? 0).getTime() || 0;
+  const allShipped = projects.filter((p) => stageOf(p).label === "SHIPPED");
+  const shipped = [...allShipped].sort((a, b) => pinRank(a) - pinRank(b) || ended(b) - ended(a)).slice(0, MAX_SHIPPED);
 
   // For active projects, look up the next milestone that is not done.
   const activeRows = [];
@@ -138,7 +154,8 @@ async function main() {
 
   let readme = await readFile(README, "utf8");
   readme = replaceSection(readme, "BUILDING", projectTable(activeRows));
-  readme = replaceSection(readme, "SHIPPED", projectTable(shippedRows));
+  const more = allShipped.length > shipped.length ? `\n\n<sub>Plus ${allShipped.length - shipped.length} more on <a href="${PROFILE}">my Inkference profile</a>.</sub>` : "";
+  readme = replaceSection(readme, "SHIPPED", projectTable(shippedRows) + more);
   readme = replaceSection(readme, "SKILLS", skillBadges(skills));
   await writeFile(README, readme);
 
