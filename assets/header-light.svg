@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Chris Chen. CS Specialist and Physics Minor at the University of Toronto. Building Escape Velocity. Founder of Inkference.">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="1200" height="340" rx="20" fill="#F3F3F1"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="20" fill="none" stroke="#E2E2DE"/>
+
+  <rect x="64" y="70" width="12" height="12" fill="#161616"/>
+  <text x="88" y="82" class="mono" font-size="16" font-weight="700" letter-spacing="3" fill="#161616">CCHRYX</text>
+  <text x="60" y="168" class="sans" font-size="72" font-weight="800" letter-spacing="-1.5" fill="#161616">Chris Chen</text>
+  <text x="64" y="214" class="sans" font-size="24" fill="#5C5C58">CS Specialist + Physics Minor · University of Toronto</text>
+
+  <rect x="64" y="248" width="282" height="36" rx="18" fill="#FFF4E5" stroke="#F3D3A8"/>
+  <circle cx="86" cy="266" r="5" fill="#E07B24"/>
+  <text x="100" y="271" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#A85A14">BUILDING ESCAPE VELOCITY</text>
+
+  <rect x="358" y="248" width="217" height="36" rx="18" fill="#161616"/>
+  <text x="466.5" y="271" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#F3F3F1">FOUNDER OF INKFERENCE</text>
+
+  <rect x="587" y="248" width="165" height="36" rx="18" fill="#FFFFFF" stroke="#D6D6D1"/>
+  <text x="669.5" y="271" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#161616">I LOVE ROBOTICS</text>
+
+  <rect x="840" y="56" width="296" height="228" rx="16" fill="#FFFFFF" stroke="#E2E2DE"/>
+  <rect x="864" y="84" width="9" height="9" fill="#161616"/>
+  <text x="882" y="93" class="mono" font-size="13" font-weight="700" letter-spacing="2.5" fill="#161616">PROGRESS</text>
+  <rect x="864" y="110" width="124" height="28" rx="14" fill="#FFF4E5" stroke="#F3D3A8"/>
+  <circle cx="881" cy="124" r="4" fill="#E07B24"/>
+  <text x="892" y="128.5" class="mono" font-size="12" font-weight="700" letter-spacing="1" fill="#A85A14">BUILDING</text>
+
+  <rect x="864" y="160" width="16" height="16" rx="4" fill="#161616"/>
+  <path d="M868 168 l3 3 l5 -6" fill="none" stroke="#F3F3F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="892" y="173" class="sans" font-size="15" fill="#8A8A85" text-decoration="line-through">Repo and database set up</text>
+  <rect x="864.5" y="196.5" width="15" height="15" rx="4" fill="none" stroke="#B9B9B4"/>
+  <text x="892" y="209" class="sans" font-size="15" fill="#2E2E2B">Job data loads into Supabase</text>
+  <rect x="864.5" y="232.5" width="15" height="15" rx="4" fill="none" stroke="#B9B9B4"/>
+  <text x="892" y="245" class="sans" font-size="15" fill="#2E2E2B">Job finder live</text>
+</svg>
