@@ -21,8 +21,8 @@
 ### Building now
 
 <!-- INKFERENCE:BUILDING:START -->
+- <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[Trajectory](https://inkference.app/project/b7b0d6e4-ad5d-4b96-8c60-00e686021693)**: Find the internships that fit you. Get the courses that launch you there.
 - <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[RSX Mars Rover 2026-2027](https://inkference.app/project/53ae031c-ca62-404e-9aa4-e70ffa1806dd)** <sub>(contributor)</sub>: Building a Mars rover with UofT's Robotics for Space Exploration team to compete in…
-- <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[Escape Velocity](https://inkference.app/project/b7b0d6e4-ad5d-4b96-8c60-00e686021693)**: Find the internships that fit you. Get the courses that launch you there.
 - <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[Nozzle Nook](https://inkference.app/project/f2adffff-6582-4187-b7e5-a50c01457494)**: Everyday 3D printed gadgets and organizers I design, print and sell at my booth.
 <!-- INKFERENCE:BUILDING:END -->
 
