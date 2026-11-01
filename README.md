@@ -21,23 +21,22 @@
 ### Building now
 
 <!-- INKFERENCE:BUILDING:START -->
-- <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[DYANNA](https://inkference.app/project/c6e40575-c0ff-4fba-bc54-d50334fd8bb5)**: This is my personal AI companion built from scratch, with voice, vision, and a robotic…
 - <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[RSX Mars Rover 2026-2027](https://inkference.app/project/53ae031c-ca62-404e-9aa4-e70ffa1806dd)** <sub>(contributor)</sub>: Building a Mars rover with UofT's Robotics for Space Exploration team to compete in…
 <!-- INKFERENCE:BUILDING:END -->
 
 <p>
 <!-- INKFERENCE:SKILLS:START -->
-<img src="https://img.shields.io/badge/Node.js-161616?style=flat-square&logo=nodedotjs&logoColor=F3F3F1" alt="Node.js" />
-<img src="https://img.shields.io/badge/TypeScript-161616?style=flat-square&logo=typescript&logoColor=F3F3F1" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Next.js-161616?style=flat-square&logo=nextdotjs&logoColor=F3F3F1" alt="Next.js" />
-<img src="https://img.shields.io/badge/Onshape-161616?style=flat-square&logo=onshape&logoColor=F3F3F1" alt="Onshape" />
-<img src="https://img.shields.io/badge/Python%20(Programming%20Language)-161616?style=flat-square&logo=pythonprogramminglanguage&logoColor=F3F3F1" alt="Python (Programming Language)" />
 <img src="https://img.shields.io/badge/Java-161616?style=flat-square&logo=java&logoColor=F3F3F1" alt="Java" />
 <img src="https://img.shields.io/badge/JavaScript-161616?style=flat-square&logo=javascript&logoColor=F3F3F1" alt="JavaScript" />
-<img src="https://img.shields.io/badge/React.js-161616?style=flat-square&logo=reactdotjs&logoColor=F3F3F1" alt="React.js" />
+<img src="https://img.shields.io/badge/Next.js-161616?style=flat-square&logo=nextdotjs&logoColor=F3F3F1" alt="Next.js" />
+<img src="https://img.shields.io/badge/Node.js-161616?style=flat-square&logo=nodedotjs&logoColor=F3F3F1" alt="Node.js" />
+<img src="https://img.shields.io/badge/Onshape-161616?style=flat-square&logo=onshape&logoColor=F3F3F1" alt="Onshape" />
+<img src="https://img.shields.io/badge/Python%20(Programming%20Language)-161616?style=flat-square&logo=pythonprogramminglanguage&logoColor=F3F3F1" alt="Python (Programming Language)" />
+<img src="https://img.shields.io/badge/TypeScript-161616?style=flat-square&logo=typescript&logoColor=F3F3F1" alt="TypeScript" />
+<img src="https://img.shields.io/badge/3D%20Printing-161616?style=flat-square&logo=3dprinting&logoColor=F3F3F1" alt="3D Printing" />
 <img src="https://img.shields.io/badge/Cascading%20Style%20Sheets%20(CSS)-161616?style=flat-square&logo=cascadingstylesheetscss&logoColor=F3F3F1" alt="Cascading Style Sheets (CSS)" />
 <img src="https://img.shields.io/badge/HTML-161616?style=flat-square&logo=html&logoColor=F3F3F1" alt="HTML" />
 <img src="https://img.shields.io/badge/MongoDB-161616?style=flat-square&logo=mongodb&logoColor=F3F3F1" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Tailwind%20CSS-161616?style=flat-square&logo=tailwindcss&logoColor=F3F3F1" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/PHP-161616?style=flat-square&logo=php&logoColor=F3F3F1" alt="PHP" />
 <!-- INKFERENCE:SKILLS:END -->
 </p>
