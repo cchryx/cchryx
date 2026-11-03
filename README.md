@@ -1,7 +1,7 @@
 <a href="https://inkference.app/profile/cchryx">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <img src="assets/header-light.svg" alt="Chris Chen. CS Specialist and Physics Minor at the University of Toronto. Building Escape Velocity. Founder of Inkference." width="100%" />
+    <img src="assets/header-light.svg" alt="Chris Chen. CS Specialist and Physics Minor at the University of Toronto. Founder of Inkference." width="100%" />
   </picture>
 </a>
 
@@ -11,18 +11,70 @@
   <a href="https://www.linkedin.com/in/x-chris-chen"><img src="https://img.shields.io/badge/LinkedIn-F3F3F1?style=for-the-badge" alt="LinkedIn" /></a>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg" />
+  <img src="assets/divider-light.svg" alt="" width="100%" />
+</picture>
+
 <table>
   <tr>
     <td width="76" align="center"><a href="https://inkference.app"><img src="https://inkference.app/icon512_maskable.png" width="64" alt="Inkference logo" /></a></td>
-    <td><b>Founder of <a href="https://inkference.app">Inkference</a></b>: a portfolio and social app for builders. Show your work, chat live, plan your week and join communities, all in one place.</td>
+    <td>
+      <b>Founder of <a href="https://inkference.app">Inkference</a></b><br />
+      The place where builders show their work, talk, plan and ship. Web and mobile.
+    </td>
   </tr>
 </table>
+
+### What Inkference does
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Show</b><br />
+      Build a portfolio. Add projects, skills and updates. Share one profile link.
+    </td>
+    <td width="33%" valign="top">
+      <b>Connect</b><br />
+      Follow builders. Join communities. Chat live.
+    </td>
+    <td width="33%" valign="top">
+      <b>Plan</b><br />
+      Plan your week. Assign tasks. Keep your team on one board.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Create with AI</b><br />
+      Ask Claude inside your workspace. Make blueprints and files. Ask follow-up questions.
+    </td>
+    <td width="33%" valign="top">
+      <b>Use tools</b><br />
+      Make a tool, such as a calendar. Get it approved. Attach it to posts or use it on your desk.
+    </td>
+    <td width="33%" valign="top">
+      <b>Take it anywhere</b><br />
+      Use it on the web. Native mobile apps are live or on the way.
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://inkference.app"><img src="https://img.shields.io/badge/Open%20Inkference-E07B24?style=for-the-badge" alt="Open Inkference" /></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg" />
+  <img src="assets/divider-light.svg" alt="" width="100%" />
+</picture>
 
 ### Building now
 
 <!-- INKFERENCE:BUILDING:START -->
 - <img src="https://img.shields.io/badge/%E2%97%8F%20BUILDING-E07B24?style=flat-square" alt="BUILDING" height="18" /> **[RSX Mars Rover 2026-2027](https://inkference.app/project/53ae031c-ca62-404e-9aa4-e70ffa1806dd)** <sub>(contributor)</sub>: Building a Mars rover with UofT's Robotics for Space Exploration team to compete in…
 <!-- INKFERENCE:BUILDING:END -->
+
+### Stack
 
 <p>
 <!-- INKFERENCE:SKILLS:START -->
@@ -39,4 +91,13 @@
 <img src="https://img.shields.io/badge/MongoDB-161616?style=flat-square&logo=mongodb&logoColor=F3F3F1" alt="MongoDB" />
 <img src="https://img.shields.io/badge/PHP-161616?style=flat-square&logo=php&logoColor=F3F3F1" alt="PHP" />
 <!-- INKFERENCE:SKILLS:END -->
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg" />
+  <img src="assets/divider-light.svg" alt="" width="100%" />
+</picture>
+
+<p align="center">
+  <sub>Updated automatically from my <a href="https://inkference.app/profile/cchryx">Inkference profile</a>.</sub>
 </p>
