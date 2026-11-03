@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="img" aria-label="Divider">
+  <path d="M0 14H420L436 6H764L780 14H1200" fill="none" stroke="#C4C9D0" stroke-width="2"/>
+  <rect x="560" y="12" width="80" height="4" fill="#E07B24"/>
+  <g stroke="#6B7280" stroke-width="1.5">
+    <path d="M452 6v-4M468 6v-4M484 6v-4M716 6v-4M732 6v-4M748 6v-4"/>
+  </g>
+</svg>

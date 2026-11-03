@@ -1,38 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Chris Chen. CS Specialist and Physics Minor at the University of Toronto. Building Escape Velocity. Founder of Inkference.">
-  <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-  </style>
-  <rect width="1200" height="340" rx="20" fill="#F3F3F1"/>
-  <rect x="0.5" y="0.5" width="1199" height="339" rx="20" fill="none" stroke="#E2E2DE"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Chris Chen. CS Specialist and Physics Minor at the University of Toronto. Founder of Inkference.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6E9ED"/>
+    </linearGradient>
+    <linearGradient id="armor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DADEE4"/>
+    </linearGradient>
+    <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#161616" stroke-opacity="0.06" stroke-width="2"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
 
-  <rect x="64" y="70" width="12" height="12" fill="#161616"/>
-  <text x="88" y="82" class="mono" font-size="16" font-weight="700" letter-spacing="3" fill="#161616">CCHRYX</text>
-  <text x="60" y="168" class="sans" font-size="72" font-weight="800" letter-spacing="-1.5" fill="#161616">Chris Chen</text>
-  <text x="64" y="214" class="sans" font-size="24" fill="#5C5C58">CS Specialist + Physics Minor · University of Toronto</text>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <polygon points="620,0 1200,0 1200,380 560,380" fill="url(#hatch)"/>
+  <line x1="620" y1="0" x2="560" y2="380" stroke="#C4C9D0" stroke-width="2"/>
+  <line x1="612" y1="48" x2="604" y2="98" stroke="#E07B24" stroke-width="4"/>
 
-  <rect x="64" y="248" width="282" height="36" rx="18" fill="#FFF4E5" stroke="#F3D3A8"/>
-  <circle cx="86" cy="266" r="5" fill="#E07B24"/>
-  <text x="100" y="271" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#A85A14">BUILDING ESCAPE VELOCITY</text>
+  <polygon points="34,14 1166,14 1186,34 1186,346 1166,366 34,366 14,346 14,34" fill="none" stroke="#C4C9D0" stroke-width="1.5"/>
+  <g fill="none" stroke="#6B7280" stroke-width="1.2">
+    <circle cx="34" cy="34" r="4"/><circle cx="1166" cy="34" r="4"/>
+    <circle cx="34" cy="346" r="4"/><circle cx="1166" cy="346" r="4"/>
+    <path d="M31 34h6M34 31v6M1163 34h6M1166 31v6M31 346h6M34 343v6M1163 346h6M1166 343v6"/>
+  </g>
 
-  <rect x="358" y="248" width="217" height="36" rx="18" fill="#161616"/>
-  <text x="466.5" y="271" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#F3F3F1">FOUNDER OF INKFERENCE</text>
+  <!-- HUD reticle -->
+  <g transform="translate(960 190)" fill="none">
+    <circle r="168" stroke="#C4C9D0" stroke-width="1.5" stroke-dasharray="2 8"/>
+    <circle r="140" stroke="#C4C9D0" stroke-width="1.5"/>
+    <path d="M0 -182v22M0 160v22M-182 0h22M160 0h22" stroke="#6B7280" stroke-width="2"/>
+    <path d="M84 -145.5A168 168 0 0 1 165.4 -29.2" stroke="#E07B24" stroke-width="4"/>
+    <path d="M-84 145.5A168 168 0 0 1 -165.4 29.2" stroke="#E07B24" stroke-width="4"/>
+  </g>
 
-  <rect x="587" y="248" width="165" height="36" rx="18" fill="#FFFFFF" stroke="#D6D6D1"/>
-  <text x="669.5" y="271" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#161616">I LOVE ROBOTICS</text>
+  <!-- Mecha -->
+  <g transform="translate(960 190)" stroke="#A9AFB8" stroke-width="1.5" stroke-linejoin="round">
+    <!-- torso and shoulders -->
+    <polygon points="-96,118 -215,134 -250,190 -120,190" fill="url(#armor)"/>
+    <polygon points="96,118 215,134 250,190 120,190" fill="url(#armor)"/>
+    <polygon points="-150,141 -176,190 -160,190 -134,143" fill="#E07B24" stroke="none"/>
+    <polygon points="150,141 176,190 160,190 134,143" fill="#E07B24" stroke="none"/>
+    <polygon points="-92,108 92,108 128,190 -128,190" fill="url(#armor)"/>
+    <path d="M-60 140H60M-44 156H44M-30 172H30" stroke="#A9AFB8" stroke-width="2" fill="none"/>
+    <rect x="-30" y="66" width="60" height="46" fill="#2A2F36" stroke="none"/>
 
-  <rect x="840" y="56" width="296" height="228" rx="16" fill="#FFFFFF" stroke="#E2E2DE"/>
-  <rect x="864" y="84" width="9" height="9" fill="#161616"/>
-  <text x="882" y="93" class="mono" font-size="13" font-weight="700" letter-spacing="2.5" fill="#161616">PROGRESS</text>
-  <rect x="864" y="110" width="124" height="28" rx="14" fill="#FFF4E5" stroke="#F3D3A8"/>
-  <circle cx="881" cy="124" r="4" fill="#E07B24"/>
-  <text x="892" y="128.5" class="mono" font-size="12" font-weight="700" letter-spacing="1" fill="#A85A14">BUILDING</text>
+    <!-- fins -->
+    <polygon points="-10,-100 -138,-182 -120,-152 -8,-74" fill="url(#armor)"/>
+    <polygon points="10,-100 138,-182 120,-152 8,-74" fill="url(#armor)"/>
+    <polygon points="-70,-130 -126,-166 -118,-152 -62,-118" fill="#E07B24" stroke="none"/>
+    <polygon points="70,-130 126,-166 118,-152 62,-118" fill="#E07B24" stroke="none"/>
 
-  <rect x="864" y="160" width="16" height="16" rx="4" fill="#161616"/>
-  <path d="M868 168 l3 3 l5 -6" fill="none" stroke="#F3F3F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="892" y="173" class="sans" font-size="15" fill="#8A8A85" text-decoration="line-through">Repo and database set up</text>
-  <rect x="864.5" y="196.5" width="15" height="15" rx="4" fill="none" stroke="#B9B9B4"/>
-  <text x="892" y="209" class="sans" font-size="15" fill="#2E2E2B">Job data loads into Supabase</text>
-  <rect x="864.5" y="232.5" width="15" height="15" rx="4" fill="none" stroke="#B9B9B4"/>
-  <text x="892" y="245" class="sans" font-size="15" fill="#2E2E2B">Job finder live</text>
+    <!-- ear pods -->
+    <rect x="-128" y="-34" width="34" height="78" rx="8" fill="url(#armor)"/>
+    <rect x="94" y="-34" width="34" height="78" rx="8" fill="url(#armor)"/>
+    <circle cx="-111" cy="-10" r="6" fill="#E07B24" stroke="none"/>
+    <circle cx="111" cy="-10" r="6" fill="#E07B24" stroke="none"/>
+
+    <!-- helmet -->
+    <polygon points="-78,-100 78,-100 98,-42 94,22 62,72 -62,72 -94,22 -98,-42" fill="url(#armor)"/>
+    <polygon points="-56,-94 56,-94 68,-54 -68,-54" fill="#FFFFFF"/>
+    <polygon points="0,-128 12,-102 0,-88 -12,-102" fill="#E07B24" stroke="none"/>
+
+    <!-- visor -->
+    <polygon points="-82,-46 82,-46 70,-4 -70,-4" fill="#1B1F24" stroke="#A9AFB8"/>
+    <g filter="url(#glow)" fill="#E07B24" stroke="none">
+      <polygon points="-64,-34 -10,-28 -14,-14 -58,-20"/>
+      <polygon points="64,-34 10,-28 14,-14 58,-20"/>
+    </g>
+    <g fill="#FFB067" stroke="none">
+      <polygon points="-64,-34 -10,-28 -14,-14 -58,-20"/>
+      <polygon points="64,-34 10,-28 14,-14 58,-20"/>
+    </g>
+
+    <!-- face plate -->
+    <path d="M-70 -4L-52 24H52L70 -4" fill="none"/>
+    <polygon points="-36,24 36,24 28,68 -28,68" fill="#DADEE4"/>
+    <path d="M-24 36H24M-22 46H22M-20 56H20" stroke="#A9AFB8" stroke-width="2" fill="none"/>
+    <path d="M-94 22L-62 72M94 22L62 72" fill="none"/>
+  </g>
+
+  <!-- text -->
+  <rect x="64" y="64" width="14" height="14" fill="#E07B24"/>
+  <text x="90" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#6B7280">UNIT CC  /  BUILDER PROFILE</text>
+  <text x="62" y="170" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="1" fill="#161616">CHRIS CHEN</text>
+  <text x="64" y="218" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#3A3F47">CS Specialist + Physics Minor</text>
+  <text x="64" y="250" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#6B7280">University of Toronto</text>
+  <rect x="64" y="272" width="120" height="4" fill="#E07B24"/>
+  <rect x="190" y="272" width="12" height="4" fill="#C4C9D0"/>
+
+  <rect x="64" y="298" width="262" height="38" rx="4" fill="#161616"/>
+  <text x="195" y="322" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.5" fill="#F3F3F1" text-anchor="middle">FOUNDER OF INKFERENCE</text>
+
+  <text x="346" y="322" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#6B7280">INKFERENCE.APP</text>
 </svg>
